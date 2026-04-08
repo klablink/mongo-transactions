@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['2.8.1', '3.0']);
+  api.versionsFrom(['2.8.1', '3.0', '3.4']);
   api.use('ecmascript');
   api.use('mongo');
   api.use('ddp-client');
